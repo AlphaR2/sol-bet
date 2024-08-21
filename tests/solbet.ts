@@ -6,10 +6,7 @@ import { BN } from "bn.js";
 import { assert } from "chai";
 import fs from 'fs';
 import { publicKey } from "@coral-xyz/anchor/dist/cjs/utils";
-// enum Outcome {
-//   Win = 0,
-//   Lose = 1,
-// };
+
 
 const keypairJs = fs.readFileSync('id.json', 'utf8');
 const keypairData = JSON.parse(keypairJs);
